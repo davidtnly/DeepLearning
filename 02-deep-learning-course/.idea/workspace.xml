@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70843996-9b55-49fa-8982-f6bbeec2e403" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/02-face-recognition/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/02-face-recognition/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-image-recognition/01-image-recognition-notes.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/03-image-recognition/01-image-recognition-notes.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnist_mlp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,26 +13,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03-image-recognition/03-deep-neural-network/02_view_image_data_set.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/03-image-recognition/ch04/02_training_and_saving_weights complete.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="29" selection-end-line="35" />
+            <state relative-caret-position="357">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
               <folding>
-                <element signature="e#0#34#0" expanded="true" />
+                <element signature="e#0#12#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/03-image-recognition/03-deep-neural-network/03_loading_image_dataset final.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03-image-recognition/ch04/03_making_predictions final.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="20" />
+            <state relative-caret-position="527">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
-                <element signature="e#0#12#0" expanded="true" />
+                <element signature="e#0#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -43,9 +43,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/requirements.txt" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1294" />
-    <option name="y" value="3" />
+    <option name="x" value="797" />
     <option name="width" value="1777" />
     <option name="height" value="1366" />
   </component>
@@ -55,7 +61,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -66,29 +71,43 @@
             <path>
               <item name="02-deep-learning-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="02-deep-learning-course" type="462c0819:PsiDirectoryNode" />
-              <item name=".ipynb_checkpoints" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="02-deep-learning-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="02-deep-learning-course" type="462c0819:PsiDirectoryNode" />
               <item name="03-image-recognition" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="02-deep-learning-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="02-deep-learning-course" type="462c0819:PsiDirectoryNode" />
               <item name="03-image-recognition" type="462c0819:PsiDirectoryNode" />
-              <item name="03-deep-neural-network" type="462c0819:PsiDirectoryNode" />
+              <item name="ch03" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02-deep-learning-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02-deep-learning-course" type="462c0819:PsiDirectoryNode" />
+              <item name="03-image-recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="ch04" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02-deep-learning-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02-deep-learning-course" type="462c0819:PsiDirectoryNode" />
+              <item name="03-image-recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="ch05" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02-deep-learning-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02-deep-learning-course" type="462c0819:PsiDirectoryNode" />
+              <item name="03-image-recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="ch06" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -102,7 +121,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.02_training_and_saving_weights complete">
+    <configuration name="02_training_and_saving_weights complete" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="02-deep-learning-course" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03-image-recognition/ch04" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03-image-recognition/ch04/02_training_and_saving_weights complete.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="create_model final" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="02-deep-learning-course" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -126,6 +166,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.02_training_and_saving_weights complete" />
         <item itemvalue="Python.create_model final" />
       </list>
     </recent_temporary>
@@ -144,9 +185,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1294" y="3" width="1777" height="1366" extended-state="0" />
+    <frame x="797" y="0" width="1777" height="1366" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24956872" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24956872" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -157,7 +198,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32927817" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -177,30 +218,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/create_model final.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-image-recognition/03-deep-neural-network/02_view_image_data_set.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="29" selection-end-line="35" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-image-recognition/03-deep-neural-network/03_loading_image_dataset final.py">
+    <entry file="file://$PROJECT_DIR$/Data/create_model final.py" />
+    <entry file="file://$PROJECT_DIR$/03-image-recognition/03-deep-neural-network/02_view_image_data_set.py" />
+    <entry file="file://$PROJECT_DIR$/03-image-recognition/03-deep-neural-network/03_loading_image_dataset final.py" />
+    <entry file="file://$PROJECT_DIR$/03-image-recognition/ch04/01_neural_network_training complete.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="20" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-image-recognition/ch03/08_complete_neural_net final.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-image-recognition/ch04/03_making_predictions final.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="145" lean-forward="true" selection-start-line="145" selection-end-line="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-image-recognition/ch04/02_training_and_saving_weights complete.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
