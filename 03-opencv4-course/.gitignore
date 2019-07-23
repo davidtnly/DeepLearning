@@ -1,6 +1,9 @@
 # Ignore
 .ipynb_checkpoints
 .idea
+CaffeModel
+YOLOv3
+Videos
 
 # Except this file
 #!.gitignore
