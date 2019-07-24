@@ -34,7 +34,7 @@ ________________________________________________________________________________
 
 ### Environment
 
-#### Create a conda environment for OpenCV
+#### Create a conda environment for TensorFlow/Keras
 
 ```
 # Create environment
