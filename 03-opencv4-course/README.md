@@ -5,6 +5,21 @@
 
 _____________________________________________________________________________________________
 
+### Models Used
+
+**Caffe** - https://arxiv.org/pdf/1408.5093.pdf
+
+**YOLOv3** - https://pjreddie.com/media/files/papers/YOLOv3.pdf
+
+YOLOv3 is the latest variant of a popular object detection algorithm YOLO – You Only Look Once. The published 
+model recognizes 80 different objects in images and videos, but most importantly it is super fast and nearly 
+as accurate as Single Shot MultiBox (SSD). We will be using YOLOv3 with OpenCV Implementation.
+
+#### Sample Classification YOLOv3 Output
+![Image](https://raw.githubusercontent.com/davidtnly/DeepLearning/master/03-opencv4-course/Images/fruit_YOLOv3_output.jpg)
+
+_____________________________________________________________________________________________
+
 ### Environment
 
 #### Create a conda environment for OpenCV
@@ -28,6 +43,7 @@ python -m pykernel install --user --name ocv4 --display-name "Python 3.6 (Open C
 #### pip
 You can also install these dependencies with pip after creating the conda environment, you can issue ```pip install -r requirements.txt```.
 
+_____________________________________________________________________________________________
 
 ### Contact me!
 
