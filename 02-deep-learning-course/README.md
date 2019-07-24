@@ -29,8 +29,7 @@ ________________________________________________________________________________
 ![Image](https://raw.githubusercontent.com/davidtnly/DeepLearning/master/02-deep-learning-course/02-face-recognition/Images/facial_detection_hs.png)
 
 ### Image Classification w/ Likelihood
-![Image](https://raw.githubusercontent.com/davidtnly/DeepLearning/master/02-deep-learning-course/02-image-recognition/Images/training.png)
-
+![Image](https://raw.githubusercontent.com/davidtnly/DeepLearning/master/02-deep-learning-course/03-image-recognition/Images/training.png)
 _____________________________________________________________________________________________
 
 ### Environment
