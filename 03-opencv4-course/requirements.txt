@@ -1,0 +1,5 @@
+cmake
+numpy
+pandas
+opencv-contrib-python-4.0.1.24
+ipykernel
