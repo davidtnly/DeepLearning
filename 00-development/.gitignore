@@ -1,0 +1,6 @@
+.ipynb_checkpoints
+.idea
+Images-DC
+
+# Except this file
+#!.gitignore
