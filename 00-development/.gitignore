@@ -1,8 +1,6 @@
 .ipynb_checkpoints
 .idea
 Images-DogCat
-Images
-Data
 
 # Except this file
 #!.gitignore
