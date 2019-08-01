@@ -1,6 +1,9 @@
 .ipynb_checkpoints
 .idea
 Images-DogCat
+YOLOv3
+CaffeModel
+Videos
 
 # Except this file
 #!.gitignore
