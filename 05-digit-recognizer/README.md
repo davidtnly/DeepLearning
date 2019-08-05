@@ -3,6 +3,8 @@
 * Digit Recognizer
   + https://www.kaggle.com/c/digit-recognizer/overview
 
+#### Training Result
+![Image](https://github.com/davidtnly/DeepLearning/blob/master/05-digit-recognizer/training-data.png)
 _____________________________________________________________________________________________
 
 ### Competition Description
