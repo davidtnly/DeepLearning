@@ -68,6 +68,24 @@ ________________________________________________________________________________
 
 2. If you want to utilize a Jupyter Notebook then you can do this ```python -m pykernel install --user --name tf-test --display-name "Python 3.6 (TF)"```.
 
+```
+Current versions working for me
+
+# Check DL Versions
+OpenCV Version: 4.0.1
+TensorFlow Version: 1.13.1
+TensorFlow Keras Version: 2.2.4-tf
+Keras Version: 2.2.4
+
+# Check GPU
+TensorFlow-GPU is available
+TensorFlow CUDA: True
+Tensorflow GPU Device Currently Activated: /device:GPU:0
+Keras GPU: ['/job:localhost/replica:0/task:0/device:GPU:0']
+
+# Check Python Version
+Python 3.6.8 |Anaconda, Inc.| (default, Feb 21 2019, 18:30:04) [MSC v.1916 64 bit (AMD64)]
+``
 _____________________________________________________________________________________________
 
 ### Contact me!
