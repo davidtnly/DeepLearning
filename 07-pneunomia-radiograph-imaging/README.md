@@ -85,7 +85,7 @@ Keras GPU: ['/job:localhost/replica:0/task:0/device:GPU:0']
 
 # Check Python Version
 Python 3.6.8 |Anaconda, Inc.| (default, Feb 21 2019, 18:30:04) [MSC v.1916 64 bit (AMD64)]
-``
+```
 _____________________________________________________________________________________________
 
 ### Contact me!
