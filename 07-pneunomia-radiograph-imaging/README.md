@@ -62,6 +62,13 @@ frozen and transferred into a new network, while the final, fully connected laye
 transferred layers.
 _____________________________________________________________________________________________
 
+### Getting Started
+
+Create a conda environment '''conda create --name tf-test python=3.6''' and then load up the environment by '''conda env create -f environment.yml'''.
+If you want to utilize a Jupyter Notebook then you can do this '''python -m pykernel install --user --name tf-test --display-name "Python 3.6 (TF)".
+
+_____________________________________________________________________________________________
+
 ### Contact me!
 
 I always welcome feedback and I enjoy connecting with individuals so feel free to drop by my [LinkedIn](https://www.linkedin.com/in/davidtly) and connect!
