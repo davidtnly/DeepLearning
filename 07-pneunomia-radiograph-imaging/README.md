@@ -28,7 +28,7 @@ ________________________________________________________________________________
 ** Still Testing **
 
 #### Illustrative Example of a Chest X-Ray in Patients with Pneunomia
-![Image](https://raw.githubusercontent.com/davidtnly/DeepLearning/master/07-pneunomia-radiograph-imaging/Etc/xray.png)
+![Image](https://raw.githubusercontent.com/davidtnly/DeepLearning/master/07-pneunomia-radiograph-imaging/etc/xray.png)
 
 Figure S6. Illustrative Examples of Chest X-Rays in Patients with Pneumonia, Related to Figure 6 The normal chest X-ray (left panel) 
 depicts clear lungs without any areas of abnormal opacification in the image. Bacterial pneumonia (middle) typically exhibits a focal 
@@ -53,7 +53,7 @@ ________________________________________________________________________________
 
 ### Illustrative Transfer Learning Example 
 
-![Image](https://raw.githubusercontent.com/davidtnly/DeepLearning/master/07-pneunomia-radiograph-imaging/Etc/transfer-learning.jpg)
+![Image](https://raw.githubusercontent.com/davidtnly/DeepLearning/master/07-pneunomia-radiograph-imaging/etc/transfer-learning.jpg)
 
 Figure 1. Schematic of a Convolutional Neural Network
 Schematic depicting how a convolutional neural network trained on the ImageNet dataset of 1,000 categories can be adapted to significantly increase 
