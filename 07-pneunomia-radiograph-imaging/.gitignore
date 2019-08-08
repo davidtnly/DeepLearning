@@ -1,0 +1,7 @@
+# Ignore
+.ipynb_checkpoints
+.idea
+Images
+
+# Except this file
+#!.gitignore
