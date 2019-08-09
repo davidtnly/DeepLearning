@@ -23,9 +23,13 @@ ________________________________________________________________________________
 
 **TensorFlow / Keras**
 
+### Results
+
+Model 1: loss: 0.1594 - acc: 0.9440 - val_loss: 0.3789 - val_acc: 0.8733
+
 ### Architecture / Methods
 
-** Still Testing **
+Model 1: 5-layer Convolutional Neural Network (Starts at filter = 16)
 
 #### Illustrative Example of a Chest X-Ray in Patients with Pneunomia
 ![Image](https://raw.githubusercontent.com/davidtnly/DeepLearning/master/07-pneunomia-radiograph-imaging/etc/xray.png)
