@@ -22,7 +22,7 @@ certain learning tasks since it creates layers and filters that is similar to a 
 In this project, we use X-ray images where the network has the ability to extract abstract 2D features through learning. 
 
 #### Chest X-Ray in Patients with Pneumonia
-![Image](https://raw.githubusercontent.com/davidtnly/DeepLearning/master/07-pneumonia-radiograph-imaging/etc/xray.png)
+![Image](https://raw.githubusercontent.com/davidtnly/DeepLearning/master/07-pneumonia-radiograph-imaging/images-results/xray.png)
 
 Figure S6. Illustrative Examples of Chest X-Rays in Patients with Pneumonia, Related to Figure 6 The normal chest X-ray (left panel) 
 depicts clear lungs without any areas of abnormal opacification in the image. Bacterial pneumonia (middle) typically exhibits a focal 
@@ -31,7 +31,7 @@ lobar consolidation, in this case in the right upper lobe (white arrows), wherea
 
 #### Sample Images in Training
 
-![Image](https://raw.githubusercontent.com/davidtnly/DeepLearning/master/07-pneumonia-radiograph-imaging/etc/comparison.png)
+![Image](https://raw.githubusercontent.com/davidtnly/DeepLearning/master/07-pneumonia-radiograph-imaging/images-results/comparison.png)
 
 The figure above is an example of some of the images used for training. The top 3 are classified as normal images and the bottom 3 are classified as pneumonia images.
 
@@ -62,7 +62,7 @@ and convert them (150, 150) so it is usable in my current code structure.
 I used several data augmentations methods to artificially create more images for the dataset. By doing this, it can help with any underfitting or overfitting issues that may occur
 since there are multiple versions of a single image. It can also enhance the model's generalization ability during training. The settings used are shown below in the image.
 
-![Image](https://raw.githubusercontent.com/davidtnly/DeepLearning/master/07-pneumonia-radiograph-imaging/etc/augment-settings.png)
+![Image](https://raw.githubusercontent.com/davidtnly/DeepLearning/master/07-pneumonia-radiograph-imaging/images-results/augment-settings.png)
 
 ### Model Development Process
 
@@ -80,7 +80,7 @@ diagnose them with a case of pneumonia when they are healthy. Lives could be sav
 
 The final architecture is a 5-layer Separable Convolutional Neural Network w/ Leaky ReLU. There are a total of 2,238,604 trainable parameters and 960 non-trainable parameters.
 
-![Image](https://raw.githubusercontent.com/davidtnly/DeepLearning/master/07-pneumonia-radiograph-imaging/etc/shape.png)
+![Image](https://raw.githubusercontent.com/davidtnly/DeepLearning/master/07-pneumonia-radiograph-imaging/images-results/shape.png)
 
 What's Leaky ReLU vs. ReLU? ReLU is an activation function that works really well with 
 most models, so why the change? Since a regular ReLU suffers from a "dying ReLU" problem, which means that the function on the negative side is zero. The neuron would be stuck
@@ -93,25 +93,25 @@ likely be ```tf.keras.layers.SeparableConv2D```. This convolution deals with spa
 may have multiple channels. The idea is to separate one convolution into two. It convolves over the channels (depth) of the image, and then by doing pointwise convolution over all channels. 
 This can reduce the number of computations by a very large amount. Here is an [article](https://towardsdatascience.com/a-basic-introduction-to-separable-convolutions-b99ec3102728) that explains the concept well. 
 
-![Image](https://raw.githubusercontent.com/davidtnly/DeepLearning/master/07-pneumonia-radiograph-imaging/etc/convolution.png)
+![Image](https://raw.githubusercontent.com/davidtnly/DeepLearning/master/07-pneumonia-radiograph-imaging/images-results/convolution.png)
 
 ### Results
 
 To evaluate and validate the true accuracy of the model, I have tested several iterations of 10 epochs of the same architecture since we have several dropout layers which is 
-randomized. I have chosen the architecture that showed the most balanced results. After testing, I ran a 50 epoch three times (approximately 3 hours) to check how much it would vary beyond 10.
+randomized. I have chosen the architecture that showed the most balanced results. After testing, I ran a 50 epoch three times (approximately ~45 minutes each) to check how much it would vary beyond 10.
 
 50 Epoch Training Accuracy: ~ 93.12%, Testing Accuracy: ~ 86.97%, Testing F1-Score: ~ 86.94%
 
 10 Epoch Training Accuracy: ~ 92.61%, Testing Accuracy: ~ 88.23%, Testing F1-Score: ~ 87.71%
 
-![Image](https://raw.githubusercontent.com/davidtnly/DeepLearning/master/07-pneumonia-radiograph-imaging/etc/final-50-epoch-1.png)
+![Image](https://raw.githubusercontent.com/davidtnly/DeepLearning/master/07-pneumonia-radiograph-imaging/images-results/final-50-epoch-1.png)
 
-![Image](https://raw.githubusercontent.com/davidtnly/DeepLearning/master/07-pneumonia-radiograph-imaging/etc/final-50-epoch-cm.png)
+![Image](https://raw.githubusercontent.com/davidtnly/DeepLearning/master/07-pneumonia-radiograph-imaging/images-results/final-50-epoch-cm.png)
 _____________________________________________________________________________________________
 
 ### Potential Improvement Using Transfer Learning
 
-![Image](https://raw.githubusercontent.com/davidtnly/DeepLearning/master/07-pneumonia-radiograph-imaging/etc/transfer-learning.jpg)
+![Image](https://raw.githubusercontent.com/davidtnly/DeepLearning/master/07-pneumonia-radiograph-imaging/images-results/transfer-learning.jpg)
 
 Figure 1. Schematic of a Convolutional Neural Network
 Schematic depicting how a convolutional neural network trained on the ImageNet dataset of 1,000 categories can be adapted to significantly increase 
