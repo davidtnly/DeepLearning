@@ -106,7 +106,7 @@ randomized. I have chosen the architecture that showed the most balanced results
 
 ![Image](https://raw.githubusercontent.com/davidtnly/DeepLearning/master/07-pneumonia-radiograph-imaging/images-results/final-50-epoch-1.png)
 
-![Image](https://raw.githubusercontent.com/davidtnly/DeepLearning/master/07-pneumonia-radiograph-imaging/images-results/final-50-epoch-cm.png)
+![Image](https://github.com/davidtnly/DeepLearning/blob/master/07-pneumonia-radiograph-imaging/images-results/final-50-cm.png)
 _____________________________________________________________________________________________
 
 ### Potential Improvement Using Transfer Learning
