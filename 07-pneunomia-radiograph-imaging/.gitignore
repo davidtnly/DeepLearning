@@ -1,8 +1,0 @@
-# Not this file
-#!.gitignore
-
-# Ignore these files
-.ipynb_checkpoints
-.idea
-images
-etc

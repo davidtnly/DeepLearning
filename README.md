@@ -2,13 +2,12 @@
 
 This is a testing and learning ground for all deep learning related.
 
-### Various Folders
-
 * Image Clustering
   + https://github.com/davidtnly/DeepLearning/tree/master/01-image-clustering
 * Deep Learning & Neural Network Course
   + https://www.linkedin.com/learning/paths/advance-your-skills-in-deep-learning-and-neural-networks
-
+* Deep Learning Approach to Pneumonia Classification
+  + https://github.com/davidtnly/DeepLearning/tree/master/07-pneunomia-radiograph-imaging
 _____________________________________________________________________________________________
 
 ```
