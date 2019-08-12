@@ -19,7 +19,7 @@ The process in developing a deep neural network model is time consuming and dema
 deep neural network architecture that performs image classification tasks. The proposed technique is based on the convolutional neural network (CNN) algorithm which utilizes a set
 of neurons (numbers) to convolve on a given image and extract features from them. Now why convolutional neural networks over regular deep learning networks? CNNs have an edge over
 certain learning tasks since it creates layers and filters that is similar to a visual schema. The network looks for colors, edges, patterns, and more in every additional layer.
-Using X-ray images, it has the ability to extract abstract 2D features through learning. 
+In this project, we use X-ray images where the network has the ability to extract abstract 2D features through learning. 
 
 #### Chest X-Ray in Patients with Pneumonia
 ![Image](https://raw.githubusercontent.com/davidtnly/DeepLearning/master/07-pneumonia-radiograph-imaging/etc/xray.png)
@@ -123,8 +123,12 @@ Transfer learning is a powerful deep learning method that I have yet to learn so
 my own adjustments, I was able to develop a stronger understanding of neural networks. I still have a lot to learn and will take a lot of revisiting of topics and methods to fully grasp a concept without the aid 
 of a second resource. On top of that, I still need a lot of work on working with different size images and make them workable.
 
-Note: Try to get the training images to be used along with the test images. When I want to use training images, I receive an error: ValueError: could not broadcast input array 
-from shape (150,150,3) into shape (150,150). So I have a reshaping issue that I need to work on for image resizing practice.
+
+### Final Thoughts
+
+Some things I wanted to try was to get the training images to be used along with the test images. When I want to use training images, I receive an error: ValueError: could not broadcast input array 
+from shape (150,150,3) into shape (150,150). So I have a reshaping issue that I need to work on for image resizing practice. It's also amazing on how some of these kernels and methods could achieve around
+94% consistency on their validation data, something that I would like to get try to get to again once I learn more about how to improve.
 _____________________________________________________________________________________________
 
 ### Environment Setup
