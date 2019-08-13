@@ -1,0 +1,11 @@
+# Not this file
+#!.gitignore
+
+# Ignore these files
+gen_first_model
+original_images
+random_balanced_images
+test
+test_gen
+train
+train_gen
