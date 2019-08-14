@@ -1,0 +1,7 @@
+# Not this file
+#!.gitignore
+
+# Ignore these files
+restaurant.mov
+restaurant_YOLO_v3_output.avi
+shore.mov
