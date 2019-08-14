@@ -3,5 +3,7 @@
 
 # Ignore these files
 restaurant.mov
-restaurant_YOLO_v3_output.avi
+restaurant_YOLOv3_output.avi
 shore.mov
+tree.avi
+vtest.avi
