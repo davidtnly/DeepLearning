@@ -8,20 +8,23 @@ This is a testing and learning ground for all deep learning related.
   + https://www.linkedin.com/learning/paths/advance-your-skills-in-deep-learning-and-neural-networks
 * Deep Learning Approach to Pneumonia Classification
   + https://github.com/davidtnly/DeepLearning/tree/master/07-pneumonia-radiograph-imaging
+* Dogs vs. Cats Classifier
+  + https://www.kaggle.com/c/dogs-vs-cats
+* SIIM-ACR Pneumothorax Segmentation
+  + https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation
 _____________________________________________________________________________________________
 
 ```
-import python
 import deeplearning
 import study
 
 knowledge = []
+topic = deeplearning.topic('')
 
-if deeplearning.topic == 'new' | python.topic == 'new':
+if topic == 'new':
     study.learn(topic)
 else:
-    knowledge.append()
-
+    knowledge.append(topic)
 ```
 
 ## Contact me!
