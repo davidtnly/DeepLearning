@@ -17,7 +17,7 @@ import study
 
 knowledge = []
 
-if deeplearning.topic == 'new' | or python.topic == 'new':
+if deeplearning.topic == 'new' | python.topic == 'new':
     study.learn(topic)
 else:
     knowledge.append()
