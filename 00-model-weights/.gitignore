@@ -1,0 +1,6 @@
+# Ignore these files
+.ipynb_checkpoints
+.idea
+*.h5
+*.json
+*.npy
