@@ -29,7 +29,7 @@ There are two ways to leverage a pre-trained network: feature extraction and fin
 
 Feature extraction consists of using the representations learned by a previous network to extract interesting features from new samples. These features are then run through a new classifier, which is trained from scratch. As we saw previously, convnets used for image classification comprise two parts: they start with a series of pooling and convolution layers, and they end with a densely-connected classifier. The first part is called the "convolutional base" of the model. In the case of convnets, "feature extraction" will simply consist of taking the convolutional base of a previously-trained network, running the new data through it, and training a new classifier on top of the output.
 
-Fine-tuning
+#### Fine-tuning
 
 Another widely used technique for model reuse, complementary to feature extraction, is fine-tuning. Fine-tuning consists in unfreezing a few of the top layers of a frozen model base used for feature extraction, and jointly training both the newly added part of the model (in our case, the fully-connected classifier) and these top layers. This is called "fine-tuning" because it slightly adjusts the more abstract representations of the model being reused, in order to make them more relevant for the problem at hand.
 
@@ -41,7 +41,7 @@ It is necessary to freeze the convolution base of VGG16 in order to be able to t
 - Unfreeze some layers in the base network
 - Jointly train both these layers and the part you added
 
-Why not fine-tune more layers?
+#### Why not fine-tune more layers?
 
 Why not fine-tune the entire convolutional base? We could. However, we need to consider that:
 
@@ -67,22 +67,26 @@ CNN Architectures used:
 ### Model Results
 _____________________________________________________________________________________________
 
+#### VGG16 
+
 Here we have the final epochs from the VGG fine-tuning phase. The training accuracy got up to 99% and the validation accuracy almost up to 93%.
 
 ![Image](https://github.com/davidtnly/DeepLearning/blob/master/09-dog-cat-classifier/images-results/fine-tuning-vgg.png)
 ![Image](https://github.com/davidtnly/DeepLearning/blob/master/09-dog-cat-classifier/images-results/fine-tuning-plot-vgg.png)
 
-After using the VGG16 network, I wanted to use an architecture that was a little more complicated, which was also fast, MobileNetV2.
+#### MobileNetV2
+
+After using the VGG16 network, I wanted to use an architecture that was a little more complicated, which was also fast.
 
 ![Image](https://github.com/davidtnly/DeepLearning/blob/master/09-dog-cat-classifier/images-results/fine-tuning-mobilenet.png)
 ![Image](https://github.com/davidtnly/DeepLearning/blob/master/09-dog-cat-classifier/images-results/fine-tuning-plot-mobilenet.png)
 
-ResNet50
+#### ResNet50
 
 ![Image](https://github.com/davidtnly/DeepLearning/blob/master/09-dog-cat-classifier/images-results/fine-tuning-resnet.png)
 ![Image](https://github.com/davidtnly/DeepLearning/blob/master/09-dog-cat-classifier/images-results/fine-tuning-plot-resnet.png)
 
-InceptionV3
+#### InceptionV3
 
 ![Image](https://github.com/davidtnly/DeepLearning/blob/master/09-dog-cat-classifier/images-results/fine-tuning-inceptionv3.png)
 ![Image](https://github.com/davidtnly/DeepLearning/blob/master/09-dog-cat-classifier/images-results/fine-tuning-plot-inceptionv3.png)
@@ -127,20 +131,20 @@ Python 3.6.8 |Anaconda, Inc.| (default, Feb 21 2019, 18:30:04) [MSC v.1916 64 bi
 ### References
 _____________________________________________________________________________________________
 
-VGG16 - [paper](https://arxiv.org/abs/1409.1556)
-MobileNetV2- [paper](https://arxiv.org/abs/1801.04381)
-ResNet50 - [paper](https://arxiv.org/abs/1512.03385)
-InceptionV3 - [paper](https://arxiv.org/abs/1512.00567)
+- VGG16 - [paper](https://arxiv.org/abs/1409.1556)
+- MobileNetV2- [paper](https://arxiv.org/abs/1801.04381)
+- ResNet50 - [paper](https://arxiv.org/abs/1512.03385)
+- InceptionV3 - [paper](https://arxiv.org/abs/1512.00567)
 
 ### More on Transfer Learning
 _____________________________________________________________________________________________
 
-Deep Learning Book - [Link](https://www.deeplearningbook.org/)
-TensorFlow Documentation (Which is what I used to basically ended up building my models on) - [Link](https://www.tensorflow.org/tutorials/images/transfer_learning)
-MLM Article - [Link](https://machinelearningmastery.com/how-to-improve-performance-with-transfer-learning-for-deep-learning-neural-networks/)
-MobileNetV2- [Link](https://machinelearningmastery.com/transfer-learning-for-deep-learning/)
-PIS Article- [Link](https://www.pyimagesearch.com/2019/05/20/transfer-learning-with-keras-and-deep-learning/)
-Googling Resources - [Link](https://www.google.com/search?client=firefox-b-1-d&q=how+to+improve+transfer+learning+model)
+- Deep Learning Book - [Link](https://www.deeplearningbook.org/)
+- TensorFlow Documentation (Which is what I used to basically ended up building my models on) - [Link](https://www.tensorflow.org/tutorials/images/transfer_learning)
+- MLM Article - [Link](https://machinelearningmastery.com/how-to-improve-performance-with-transfer-learning-for-deep-learning-neural-networks/)
+- MobileNetV2- [Link](https://machinelearningmastery.com/transfer-learning-for-deep-learning/)
+- PIS Article- [Link](https://www.pyimagesearch.com/2019/05/20/transfer-learning-with-keras-and-deep-learning/)
+- Googling Resources - [Link](https://www.google.com/search?client=firefox-b-1-d&q=how+to+improve+transfer+learning+model)
 
 ### Contact me!
 _____________________________________________________________________________________________
