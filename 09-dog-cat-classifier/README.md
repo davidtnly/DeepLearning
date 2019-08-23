@@ -69,23 +69,23 @@ ________________________________________________________________________________
 
 Here we have the final epochs from the VGG fine-tuning phase. The training accuracy got up to 99% and the validation accuracy almost up to 93%.
 
-![Image](https://github.com/davidtnly/DeepLearning/tree/master/09-dog-cat-classifier/images-results/fine-tuning-vgg.png)
-![Image](https://github.com/davidtnly/DeepLearning/tree/master/09-dog-cat-classifier/images-results/fine-tuning-plot-vgg.png)
+![Image](https://github.com/davidtnly/DeepLearning/blob/master/09-dog-cat-classifier/images-results/fine-tuning-vgg.png)
+![Image](https://github.com/davidtnly/DeepLearning/blob/master/09-dog-cat-classifier/images-results/fine-tuning-plot-vgg.png)
 
 After using the VGG16 network, I wanted to use an architecture that was a little more complicated, which was also fast, MobileNetV2.
 
-![Image](https://github.com/davidtnly/DeepLearning/tree/master/09-dog-cat-classifier/images-results/fine-tuning-mobilenet.png)
-![Image](https://github.com/davidtnly/DeepLearning/tree/master/09-dog-cat-classifier/images-results/fine-tuning-plot-mobilenet.png)
+![Image](https://github.com/davidtnly/DeepLearning/blob/master/09-dog-cat-classifier/images-results/fine-tuning-mobilenet.png)
+![Image](https://github.com/davidtnly/DeepLearning/blob/master/09-dog-cat-classifier/images-results/fine-tuning-plot-mobilenet.png)
 
 ResNet50
 
-![Image](https://github.com/davidtnly/DeepLearning/tree/master/09-dog-cat-classifier/images-results/fine-tuning-resnet.png)
-![Image](https://github.com/davidtnly/DeepLearning/tree/master/09-dog-cat-classifier/images-results/fine-tuning-plot-resnet.png)
+![Image](https://github.com/davidtnly/DeepLearning/blob/master/09-dog-cat-classifier/images-results/fine-tuning-resnet.png)
+![Image](https://github.com/davidtnly/DeepLearning/blob/master/09-dog-cat-classifier/images-results/fine-tuning-plot-resnet.png)
 
 InceptionV3
 
-![Image](https://github.com/davidtnly/DeepLearning/tree/master/09-dog-cat-classifier/images-results/fine-tuning-inceptionv3.png)
-![Image](https://github.com/davidtnly/DeepLearning/tree/master/09-dog-cat-classifier/images-results/fine-tuning-plot-inceptionv3.png)
+![Image](https://github.com/davidtnly/DeepLearning/blob/master/09-dog-cat-classifier/images-results/fine-tuning-inceptionv3.png)
+![Image](https://github.com/davidtnly/DeepLearning/blob/master/09-dog-cat-classifier/images-results/fine-tuning-plot-inceptionv3.png)
 
 ### Potential Improvement Using Transfer Learning
 
