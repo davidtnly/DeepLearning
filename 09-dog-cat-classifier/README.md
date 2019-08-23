@@ -18,7 +18,7 @@ ________________________________________________________________________________
 
 The image below shows a few of the predicted classes from the final InceptionV3 model, which isn't that great although the training and validation accuracy was 99% - 100%.
 
-![Image](https://github.com/davidtnly/DeepLearning/tree/master/09-dog-cat-classifier/images-results/testing-inceptionv3.png)
+![Image](https://github.com/davidtnly/DeepLearning/blob/master/09-dog-cat-classifier/images-results/testing-inceptionv3.png)
 
 ### What is transfer learning?
 _____________________________________________________________________________________________
@@ -49,7 +49,7 @@ Earlier layers in the convolutional base encode more generic, reusable features,
 
 Thus, in our situation, it is a good strategy to only fine-tune the top 2 to 3 layers in the convolutional base.
 
-### Preprocessing
+### Preprocessing 
 _____________________________________________________________________________________________
 
 The preprocessing for this specific project was simple. Split the data into two folders for each class and set. So we have a train and validation folder each containing a "cats" and "dogs" folder of images. The only augmentation I did was rescaling on our final model.
