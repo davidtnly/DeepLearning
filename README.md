@@ -1,4 +1,5 @@
 ### Welcome to my Deep Learning repository
+_____________________________________________________________________________________________
 
 This is a testing and learning ground for all deep learning related.
 
@@ -12,9 +13,9 @@ This is a testing and learning ground for all deep learning related.
   + https://www.kaggle.com/c/dogs-vs-cats
 * SIIM-ACR Pneumothorax Segmentation
   + https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation
-_____________________________________________________________________________________________
 
 ### Environment Setup (Using environment.yml)
+_____________________________________________________________________________________________
 
 1. Create a conda environment ```conda create --name tf-test python=3.6``` and then load up the environment by ```conda env create -f environment.yml```. The environment file could be found [here](https://github.com/davidtnly/DeepLearning/tree/master/07-pneumonia-radiograph-imaging).
 
@@ -41,6 +42,7 @@ Python 3.6.8 |Anaconda, Inc.| (default, Feb 21 2019, 18:30:04) [MSC v.1916 64 bi
 Now you can open up your Jupyter notebook and select the new kernel labled as the display name you set it to.
 
 ### Environment Setup (Installing libraries)
+_____________________________________________________________________________________________
 
 ```
 # Create environment
@@ -70,6 +72,7 @@ pip install ipykernel
 # Create Kernel
 python -m ipykernel install --user --name tensorflow --display-name "Python 3.6 (TensorFlow)"
 ```
+
 Now you can open up your Jupyter notebook and select the new kernel labled as the display name you set it to. You can install the same libraries if you are using an IDE like PyCharm.
 _____________________________________________________________________________________________
 
@@ -87,5 +90,5 @@ else:
 ```
 
 ## Contact me!
-
+_____________________________________________________________________________________________
 I always welcome feedback and I enjoy connecting with individuals so feel free to drop by my [LinkedIn](https://www.linkedin.com/in/davidtly) and connect!
