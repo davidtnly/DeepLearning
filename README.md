@@ -91,4 +91,5 @@ else:
 
 ## Contact me!
 _____________________________________________________________________________________________
+
 I always welcome feedback and I enjoy connecting with individuals so feel free to drop by my [LinkedIn](https://www.linkedin.com/in/davidtly) and connect!

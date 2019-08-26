@@ -1,8 +1,10 @@
 # Ignore these files
+__pycache__
 .ipynb_checkpoints
 .idea
 *.h5
 *.json
 *.npy
+*.model
 data
 images

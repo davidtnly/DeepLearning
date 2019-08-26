@@ -6,67 +6,52 @@
 ### Introduction
 _____________________________________________________________________________________________
 
+#### What is pneumothorax?
 
+Imagine suddenly gasping for air, helplessly breathless for no apparent reason. Could it be a collapsed lung?
+
+A pneumothorax occurs when air leaks into the space between your lung and chest wall called the pleura. Imagine a small layer surrounding the lung and that is the pleura cavity. This air pushes on the outside of your lung and makes it collapse. Pneumothorax can be a complete lung collapse or a collapse of only a portion of the lung. Air gets into the cavity and expands the contained space and cannot exit, which prevents expansion of the lung and oxygenation (swells and blocks the airway that spreads oxygen through the lungs).
+
+Pneumothorax can be caused by a blunt chest injury, damage from underlying lung disease, or most horrifying—it may occur for no obvious reason at all. On some occasions, a collapsed lung can be a life-threatening event. The condition leads to hypoxia and cardiopulmonary collapse. The patient can have unilteral decreased or absent breath sounds, acute unilateral chest pain, dysnia, respiratory distress, etc.
+
+A collapse lung will look smaller because of the entrapment of the extra air pushed into the pleura compared to a normal healthy lunch with a thin layer of the pleura. As air pushes against the lung it deviates the trachea to the opposite side, which results in blocking the air passageway.
+
+#### How and who diagnoses pneumothorax?
+
+Pneumothorax is usually diagnosed by a radiologist on a chest x-ray, and can sometimes be very difficult to confirm. An accurate AI algorithm to detect pneumothorax would be useful in a lot of clinical scenarios. AI could be used to triage chest radiographs for priority interpretation, or to provide a more confident diagnosis for non-radiologists.
+
+The Society for Imaging Informatics in Medicine (SIIM) is the leading healthcare organization for those interested in the current and future use of informatics in medical imaging. Their mission is to advance medical imaging informatics across the enterprise through education, research, and innovation in a multi-disciplinary community.
+
+#### How is pneumothorax treated?
+
+Treatment for a pneumothorax usually involves inserting a needle or chest tube between the ribs to remove the excess air (needle decompression). However, a small pneumothorax may heal on its own.
+
+### Challenge
+
+In this competition, you’ll develop a model to classify (and if present, segment) pneumothorax from a set of chest radiographic images. If successful, you could aid in the early recognition of pneumothoraces and save lives. 
 
 ### Data and Methods
 _____________________________________________________________________________________________
 
-
+Still in progress... on hold.
 
 ### Preprocessing
 _____________________________________________________________________________________________
 
-
+Normalization / 255
 
 ### Architectures
 _____________________________________________________________________________________________
 
+Testing out U-Net / ResUNet / EfficientNet
 
-
-### Results
+### Images
 _____________________________________________________________________________________________
 
+![Image](https://github.com/davidtnly/DeepLearning/blob/master/10-pneumothorax-imaging/images-results/sample-image.png)
 
-
-![Image](https://github.com/davidtnly/DeepLearning/blob/master/10-pneumothorax-imaging/images-results/pic.png)
-
-### Potential Improvements
+### Areas to Review
 _____________________________________________________________________________________________
 
-
-
-### Final Thoughts
-_____________________________________________________________________________________________
-
-
-
-### Environment Setup
-_____________________________________________________________________________________________
-
-1. Create a conda environment ```conda create --name tf-test python=3.6``` and then load up the environment by ```conda env create -f environment.yml```.
-
-2. If you want to utilize a Jupyter Notebook then you can do this ```python -m pykernel install --user --name tf-test --display-name "Python 3.6 (TensorFlow)"```.
-
-```
-Current versions working for me
-
-# Check DL Versions
-OpenCV Version: 4.0.1
-TensorFlow Version: 1.13.1
-TensorFlow Keras Version: 2.2.4-tf
-Keras Version: 2.2.4
-
-# Check GPU
-TensorFlow-GPU is available
-TensorFlow CUDA: True
-Tensorflow GPU Device Currently Activated: /device:GPU:0
-Keras GPU: ['/job:localhost/replica:0/task:0/device:GPU:0']
-
-# Check Python Version
-Python 3.6.8 |Anaconda, Inc.| (default, Feb 21 2019, 18:30:04) [MSC v.1916 64 bit (AMD64)]
-```
-
-### Contact me!
-_____________________________________________________________________________________________
-
-I always welcome feedback and I enjoy connecting with individuals so feel free to drop by my [LinkedIn](https://www.linkedin.com/in/davidtly) and connect!
++ Working with DICOM files (Extraction, Metadata, Masking, Encoding, Visualizing w/ Label Text)
++ Creating bounding boxes on specified target areas
